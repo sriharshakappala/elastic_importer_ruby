@@ -18,3 +18,15 @@ f.each_line do |line|
 end
 
 f.close
+
+# line[line.length-2].match(/[0-9]/)
+# line[line.length-2] =~ /[0-9]/
+
+
+# Fair Lines
+# 1. Line ends with number
+# 2. Length greater than 23
+
+# Broken Lines
+# 1. Line must not end with number
+# 2. Length greater than 23
