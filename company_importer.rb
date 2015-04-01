@@ -26,6 +26,7 @@ f.close
 # Fair Lines
 # 1. Line ends with number
 # 2. Length greater than 23
+# /[0-9]{1,2}\/[0-9]{1,2}\/[0-9]{4}/ Regex for date mm/dd/yyyy
 
 # Broken Lines
 # 1. Line must not end with number
